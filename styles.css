@@ -290,6 +290,36 @@ img:hover {
   transform: translateY(-50%); /* Vertically center the checkmark */
 }
 
+/*  bookign */
+.book-now-container {
+  text-align: center;
+  margin-top: 30px; /* Space to make the button more prominent */
+}
+
+.book-now-btn {
+  background: linear-gradient(90deg, blue, #32CD32); /* Vibrant electric blue to lime green */
+  color: #FFFFFF; /* White text for clarity */
+  font-size: 20px; /* Larger font size */
+  font-weight: bold;
+  padding: 20px 40px; /* Spacious padding for emphasis */
+  border: none;
+  border-radius: 40px; /* Rounded edges */
+  cursor: pointer;
+  box-shadow: 0px 8px 25px rgba(0, 191, 255, 0.4); /* Strong shadow to lift the button */
+  transition: all 0.3s ease;
+}
+
+.book-now-btn:hover {
+  transform: scale(1.1); /* Button grows slightly on hover */
+  box-shadow: 0px 15px 30px rgba(50, 205, 50, 0.6); /* Intense glow effect on hover */
+  filter: brightness(1.2); /* Increase brightness on hover */
+}
+
+.book-now-btn:active {
+  transform: scale(1.05); /* Slightly compress when clicked */
+  box-shadow: 0px 8px 20px rgba(0, 191, 255, 0.6); /* Reduced shadow when clicked */
+}
+
 /* Gallery Section */
 #gallery {
   padding: 50px 20px;
