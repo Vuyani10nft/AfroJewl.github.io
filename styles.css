@@ -350,21 +350,6 @@ footer p {
 }
 
 @media (max-width: 768px) {
-  .about-us-container {
-    flex-direction: column; /* Stack image and text vertically */
-    align-items: center; /* Center them on small screens */
-  }
-
-  .about-us-container .image {
-    margin-right: 0;
-    margin-bottom: 20px; /* Space between image and text when stacked */
-  }
-
-  .about-us-container .text {
-    text-align: center; /* Center the text */
-  }
-}
-@media (max-width: 768px) {
   .service-cards, .about-content {
     flex-direction: column;
     align-items: center;
