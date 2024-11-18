@@ -177,7 +177,7 @@ img {
 }
 
 img:hover {
-  transform: scale(1.5); /* Zoom in on hover */
+  transform: scale(1.4); /* Zoom in on hover */
 }
 
 .service-cards {
