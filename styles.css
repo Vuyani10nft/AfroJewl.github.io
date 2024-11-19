@@ -365,6 +365,70 @@ img:hover {
 .contact-icons img:hover {
   transform: scale(1.1);
 }
+/* Footer Styles */
+#footer {
+  background-color: #1a3d5c;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-logo .logo {
+  font-size: 2em;
+  color: #f7a800;
+  text-decoration: none;
+}
+
+.footer-links ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul li {
+  font-size: 1.1em;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #f7a800;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social .social-icon img {
+  width: 30px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.footer-social .social-icon img:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 1em;
+  color: #ccc;
+}
 
 /* Footer */
 footer {
@@ -377,6 +441,21 @@ footer {
 footer p {
   margin: 0;
   font-size: 1em;
+}
+/* Footer social icons */
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #40E0D0; /* Your turquoise color */
 }
 
 @media (max-width: 768px) {
