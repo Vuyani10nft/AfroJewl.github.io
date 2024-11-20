@@ -46,21 +46,22 @@ header ul li a:hover {
 
 /* Hero Section */
 .hero {
-  width: 100vw;
-  height: 100vh;
+  width: 100%; /* Full width of the screen without overflow */
+  height: 100vh; /* Full height of the viewport */
   background-image: url('https://imgs.search.brave.com/88jKJtOnxx7ZiDSIXWQ4T3xXVoYyKgVyiaS-QvyHEjk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI5/MzA5MjQ5MS9waG90/by9oYXJhcmUtemlt/YmFid2UuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPXBQZlZa/ejVMaXI1NHI0ZjZn/R005VW0xdUNIZ0pS/bFhYVXJfWHRzbVdP/c2c9');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-size: cover; /* Scale image proportionally to fit */
+  background-position: center; /* Center the image */
+  display: flex; /* Flex container */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
   color: white;
   text-align: center;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  max-width: 931px;
+  overflow: hidden; /* Prevent content overflow */
 }
+
 
 .hero .hero-content {
   max-width: 800px;
